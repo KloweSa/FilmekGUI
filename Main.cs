@@ -51,10 +51,7 @@ namespace FilmekGUI
             if (Core.SearchFilter is not null) SearchResult();    
         }
 
-        private void tsmiClearSearch_Click(object sender, EventArgs e)
-        {
-            UpdateDGV();
-        }
+        private void tsmiClearSearch_Click(object sender, EventArgs e) => UpdateDGV();
 
         private void UpdateDGV()
         {
